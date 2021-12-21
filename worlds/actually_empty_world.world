@@ -2,16 +2,6 @@
 <sdf version="1.6" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <world name="marsyard2021">
 
-    <!-- <physics type="ode">
-      <ode>
-        <solver>
-          
-          <friction_model>cone_model</friction_model>
-
-          <island_threads>6</island_threads>
-        </solver>
-      </ode>
-    </physics> -->
 
     <light name='sun' type='directional'>
       <pose frame=''>0 0 100 0 0.8 0</pose>
@@ -28,7 +18,7 @@
         </clouds>
       </sky>
       <shadows>true</shadows>
-      <origin_visual>false</origin_visual>
+      <origin_visual>true</origin_visual>
     </scene>
     <!-- A ground plane -->
     <include>
