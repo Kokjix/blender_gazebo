@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<sdf version="1.6" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<sdf version="1.6"
+  xmlns:xacro="http://www.ros.org/wiki/xacro">
   <world name="marsyard2021">
 
     <physics type="ode">
@@ -31,6 +32,46 @@
       <origin_visual>true</origin_visual>
     </scene>
 
+    <!-- <actor name="Matt Damon">
+      <link name="cosmonaut">
+        <visual name="visual">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/baran/rover_simulation_ws/src/Simulations/blender_gazebo/worlds/cosmonaut-dae/cosmonaut.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="square">
+          <waypoint>
+            <time>0.0</time>
+            <pose>-1 -1 1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>1.0</time>
+            <pose>-1 1 1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>2.0</time>
+            <pose>1 1 1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>3.0</time>
+            <pose>1 -1 1 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>4.0</time>
+            <pose>-1 -1 1 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor> -->
+
     <xacro:include filename="$(find blender_gazebo)/sdf/landmark.sdf.xacro"/>
 
     <xacro:landmark id="1">
@@ -40,7 +81,7 @@
     <xacro:landmark id="2">
       <pose>-6.05 -5.75 1.22 0 0 1.33</pose>
     </xacro:landmark>
-  
+
     <xacro:landmark id="3">
       <pose>-7.93 18.45 1.21 0 0 0.35</pose>
     </xacro:landmark>
@@ -83,11 +124,11 @@
 
     <xacro:landmark id="13">
       <pose>9.78 5.39 1.35 0 0 1.13</pose>
-    </xacro:landmark> 
-  
+    </xacro:landmark>
+
     <xacro:landmark id="15">
       <pose>15.60 -9.14 1.15 0 0 1.20</pose>
-    </xacro:landmark> 
+    </xacro:landmark>
 
   </world>
 </sdf>
