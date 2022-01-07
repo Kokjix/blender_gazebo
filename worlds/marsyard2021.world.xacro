@@ -32,6 +32,10 @@
       <origin_visual>true</origin_visual>
     </scene>
 
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
     <!-- <actor name="Matt Damon">
       <link name="cosmonaut">
         <visual name="visual">
@@ -75,59 +79,59 @@
     <xacro:include filename="$(find blender_gazebo)/sdf/landmark.sdf.xacro"/>
 
     <xacro:landmark id="1">
-      <pose>-2.60 -5.17 1.42 0 0 0</pose>
+      <pose>-2.60 -5.17 0.42 0 0 0</pose>
     </xacro:landmark>
 
     <xacro:landmark id="2">
-      <pose>-6.05 -5.75 1.22 0 0 1.33</pose>
+      <pose>-6.05 -5.75 0.22 0 0 1.33</pose>
     </xacro:landmark>
 
     <xacro:landmark id="3">
-      <pose>-7.93 18.45 1.21 0 0 0.35</pose>
+      <pose>-7.93 18.45 0.21 0 0 0.35</pose>
     </xacro:landmark>
 
     <xacro:landmark id="4">
-      <pose>-0.23 9.19 1.29 0 0 0.98</pose>
+      <pose>-0.23 9.19 0.29 0 0 0.98</pose>
     </xacro:landmark>
 
     <xacro:landmark id="5">
-      <pose>-12.3 -6.28 1.16 0 0 1.47</pose>
+      <pose>-12.3 -6.28 0.16 0 0 1.47</pose>
     </xacro:landmark>
 
     <xacro:landmark id="6">
-      <pose>18.46 -1.15 1.28 0 0 0.83</pose>
+      <pose>18.46 -1.15 0.28 0 0 0.83</pose>
     </xacro:landmark>
 
     <xacro:landmark id="7">
-      <pose>13.07 -7.09 1.32 0 0 1.19</pose>
+      <pose>13.07 -7.09 0.32 0 0 1.19</pose>
     </xacro:landmark>
 
     <xacro:landmark id="8">
-      <pose>3.05 17.20 1.19 0 0 0.95</pose>
+      <pose>3.05 17.20 0.19 0 0 0.95</pose>
     </xacro:landmark>
 
     <xacro:landmark id="9">
-      <pose>-14.82 1.52 1.20 0 0 0.16</pose>
+      <pose>-14.82 1.52 0.20 0 0 0.16</pose>
     </xacro:landmark>
 
     <xacro:landmark id="10">
-      <pose>-10.74 -15.05 1.29 0 0 1.27</pose>
+      <pose>-10.74 -15.05 0.29 0 0 1.27</pose>
     </xacro:landmark>
 
     <xacro:landmark id="11">
-      <pose>18.43 5.48 1.36 0 0 0.23</pose>
+      <pose>18.43 5.48 0.36 0 0 0.23</pose>
     </xacro:landmark>
 
     <xacro:landmark id="12">
-      <pose>-4.14 4.51 1.12 0 0 0.47</pose>
+      <pose>-4.14 4.51 0.12 0 0 0.47</pose>
     </xacro:landmark>
 
     <xacro:landmark id="13">
-      <pose>9.78 5.39 1.35 0 0 1.13</pose>
+      <pose>9.78 5.39 0.35 0 0 1.13</pose>
     </xacro:landmark>
 
     <xacro:landmark id="15">
-      <pose>15.60 -9.14 1.15 0 0 1.20</pose>
+      <pose>15.60 -9.14 0.15 0 0 1.20</pose>
     </xacro:landmark>
 
   </world>
