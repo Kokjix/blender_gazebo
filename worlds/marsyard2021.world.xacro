@@ -36,10 +36,10 @@
       <uri>model://ground_plane</uri>
     </include>
 
-    <!-- <actor name="Matt Damon">
+    <actor name="Lâgari Hasan Çelebi">
       <link name="cosmonaut">
         <visual name="visual">
-          <pose>0 0 0 0 0 0</pose>
+          <pose>0 25 0.9 0 0 1.57</pose>
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
@@ -54,13 +54,13 @@
         <trajectory id="0" type="square">
           <waypoint>
             <time>0.0</time>
-            <pose>-1 -1 1 0 0 0</pose>
+            <pose>-1 -1 0 0 0 0</pose>
           </waypoint>
           <waypoint>
-            <time>1.0</time>
-            <pose>-1 1 1 0 0 0</pose>
+            <time>30.0</time>
+            <pose>20 -1 0 0 0 0</pose>
           </waypoint>
-          <waypoint>
+          <!-- <waypoint>
             <time>2.0</time>
             <pose>1 1 1 0 0 0</pose>
           </waypoint>
@@ -71,10 +71,10 @@
           <waypoint>
             <time>4.0</time>
             <pose>-1 -1 1 0 0 0</pose>
-          </waypoint>
+          </waypoint> -->
         </trajectory>
       </script>
-    </actor> -->
+    </actor>
 
     <xacro:include filename="$(find blender_gazebo)/sdf/landmark.sdf.xacro"/>
 
