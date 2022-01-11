@@ -2,7 +2,10 @@
 <sdf version="1.6"
   xmlns:xacro="http://www.ros.org/wiki/xacro">
   <world name="marsyard2021">
+<!-- 
+@author: Baran Berk Bağcı-->
 
+<!-- Empty world with artag, blue sky and clouds.-->
     <physics type="ode">
       <ode>
         <solver>
@@ -36,6 +39,7 @@
       <uri>model://ground_plane</uri>
     </include>
 
+    <!-- Actors is model with automated moving models in gazebo in this cas our actor is cosmonaut named Lagari Hasan Çelebi.-->
     <actor name="Lâgari Hasan Çelebi">
       <link name="cosmonaut">
         <visual name="visual">
@@ -43,7 +47,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/baran/rover_simulation_ws/src/Simulations/blender_gazebo/worlds/cosmonaut-dae/cosmonaut.dae</uri>
+              <uri>/home/baran/rover_simulation_ws/src/Simulations/blender_gazebo/worlds/cosmonaut-dae/cosmonaut.dae</uri> <!-- Change this path if you want cosmounaut you can use pwd command on terminal.-->
             </mesh>
           </geometry>
         </visual>
@@ -78,6 +82,7 @@
 
     <xacro:include filename="$(find blender_gazebo)/sdf/landmark.sdf.xacro"/>
 
+    <!-- Artag ids from 1 to 15-->
     <xacro:landmark id="1">
       <pose>-2.60 -5.17 0.42 0 0 0</pose>
     </xacro:landmark>

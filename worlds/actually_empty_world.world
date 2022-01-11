@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <sdf version="1.6" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <world name="marsyard2021">
+<!-- 
+@author: Baran Berk Bağcı-->
 
+<!--Empty world with blue skt and clouds it is made for robot arm simulation -->
 
     <light name='sun' type='directional'>
       <pose frame=''>0 0 100 0 0.8 0</pose>

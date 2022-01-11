@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <sdf version="1.6" xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+<!-- 
+@author: Baran Berk Bağcı-->
   <xacro:macro name="landmark" params="id *pose">
    
     <xacro:property name="pole_above_ground" value="0.3"/>
@@ -39,6 +40,7 @@
           </geometry>
         </collision>
 
+        <!-- Sign Prism Head-->
         <visual name="box_visual">
           <pose>0 0 ${-0.15+pole_above_ground + box_height/2} 0 0 +${pi/3}</pose>
           <geometry>
@@ -79,18 +81,22 @@
           </visual>
         </xacro:macro>
 
+        <!-- Artag 1-->
         <xacro:landmark_sheet name="sheet1">
           <pose>0 ${(box_width - sheet_width)/2} ${pole_above_ground + box_height/2} 0 0 0</pose>
         </xacro:landmark_sheet>
 
+        <!-- Don'T delete this because Artag 2 needed rectangular prism sign-->
         <!-- <xacro:landmark_sheet name="sheet2">
           <pose>0 -${(box_width - sheet_width)/2 + sheet_out} ${pole_above_ground + box_height/2} 0 0 0</pose>
         </xacro:landmark_sheet> -->
 
+        <!-- Artag 3-->
         <xacro:landmark_sheet name="sheet3">
           <pose>${((box_width-0.05) - sheet_width)/2 + sheet_out} -0.06 ${pole_above_ground + box_height/2} 0 0 +${pi/3}</pose>
         </xacro:landmark_sheet>
 
+        <!-- Artag 4-->
         <xacro:landmark_sheet name="sheet4">
           <pose>-${((box_width-0.06) - sheet_width)/2 + sheet_out} -0.06 ${pole_above_ground + box_height/2} 0 0 -${pi/3}</pose>
         </xacro:landmark_sheet>
