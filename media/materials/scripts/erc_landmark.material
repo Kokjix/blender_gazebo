@@ -11,7 +11,7 @@ material ERC_Landmark/1
 
 			texture_unit
 			{
-				texture erc_landmark_1.png
+				texture aruco_1.png
 			}
 		}
 	}
@@ -30,7 +30,7 @@ material ERC_Landmark/2
 
 			texture_unit
 			{
-				texture erc_landmark_2.png
+				texture aruco_2.png
 			}
 		}
 	}
@@ -49,7 +49,7 @@ material ERC_Landmark/3
 
 			texture_unit
 			{
-				texture erc_landmark_3.png
+				texture aruco_3.png
 			}
 		}
 	}
@@ -68,7 +68,7 @@ material ERC_Landmark/4
 
 			texture_unit
 			{
-				texture erc_landmark_4.png
+				texture aruco_4.png
 			}
 		}
 	}
@@ -87,7 +87,7 @@ material ERC_Landmark/5
 
 			texture_unit
 			{
-				texture erc_landmark_5.png
+				texture aruco_5.png
 			}
 		}
 	}
@@ -106,7 +106,7 @@ material ERC_Landmark/6
 
 			texture_unit
 			{
-				texture erc_landmark_6.png
+				texture aruco_6.png
 			}
 		}
 	}
@@ -125,7 +125,7 @@ material ERC_Landmark/7
 
 			texture_unit
 			{
-				texture erc_landmark_7.png
+				texture aruco_7.png
 			}
 		}
 	}
@@ -144,7 +144,7 @@ material ERC_Landmark/8
 
 			texture_unit
 			{
-				texture erc_landmark_8.png
+				texture aruco_8.png
 			}
 		}
 	}
@@ -163,7 +163,7 @@ material ERC_Landmark/9
 
 			texture_unit
 			{
-				texture erc_landmark_9.png
+				texture aruco_9.png
 			}
 		}
 	}
@@ -182,7 +182,7 @@ material ERC_Landmark/10
 
 			texture_unit
 			{
-				texture erc_landmark_10.png
+				texture aruco_10.png
 			}
 		}
 	}
@@ -201,7 +201,7 @@ material ERC_Landmark/11
 
 			texture_unit
 			{
-				texture erc_landmark_11.png
+				texture aruco_11.png
 			}
 		}
 	}
@@ -220,7 +220,7 @@ material ERC_Landmark/12
 
 			texture_unit
 			{
-				texture erc_landmark_12.png
+				texture aruco_12.png
 			}
 		}
 	}
@@ -239,7 +239,7 @@ material ERC_Landmark/13
 
 			texture_unit
 			{
-				texture erc_landmark_13.png
+				texture aruco_13.png
 			}
 		}
 	}
@@ -258,7 +258,7 @@ material ERC_Landmark/14
 
 			texture_unit
 			{
-				texture erc_landmark_14.png
+				texture aruco_14.png
 			}
 		}
 	}
@@ -277,7 +277,7 @@ material ERC_Landmark/15
 
 			texture_unit
 			{
-				texture erc_landmark_15.png
+				texture aruco_15.png
 			}
 		}
 	}
