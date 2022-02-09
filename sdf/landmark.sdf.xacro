@@ -70,7 +70,7 @@
             <xacro:insert_block name="pose"/>
             <geometry>
               <box>
-                <size>0.21 ${sheet_width} 0.297</size>
+                <size>0.21 ${sheet_width} 0.21</size>
               </box>
             </geometry>
             <material>
