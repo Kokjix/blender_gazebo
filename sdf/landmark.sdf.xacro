@@ -51,7 +51,7 @@
           </geometry>
           <material>
             <script>
-              <name>ERC_Landmark/Box</name>
+              <name>Gazebo/White</name>
             </script>
           </material>
         </visual>
